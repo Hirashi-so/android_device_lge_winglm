@@ -148,4 +148,8 @@
     <!-- Enable the Linux /dev/input/event subsystem to monitor headphone jack changes -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
 
+    <!-- Allow independent content on the WING secondary display. -->
+    <bool name="config_localDisplaysMirrorContent">false</bool>
+    <bool name="config_useSystemProvidedLauncherForSecondary">true</bool>
+    <string name="config_secondaryHomePackage" translatable="false">org.yaap.launcher.wing</string>
 </resources>
